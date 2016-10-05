@@ -2,7 +2,7 @@
 Example code for the Saharacluster platform
 
 **_Creating an app_**
- - To start navigate to saharacluster.com and register. Confirm your email to be able to proceed.
+ - To start navigate to http://saharacluster.com and register. Confirm your email to be able to proceed.
  - Click the + on the navbar and enter a name for your app. Your app will then be accessible at http://<app_name>.saharacluster.com.
  - Next, select an app type from the list, choosing either one of Python, PHP or Node. This will init your app with the basic tools for that language.
  
@@ -21,7 +21,7 @@ Example code for the Saharacluster platform
   Init a git repository
   # git init
   
-  Navigate to your dashboard saharacluster.com/app/list.
+  Navigate to your dashboard http://saharacluster.com/app/list.
   
   You should see the app you created listed there, copy the url under `Git` and paste it into the following command
   # git remote add origin <paste_the_git_url_here>
