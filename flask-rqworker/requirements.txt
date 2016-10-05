@@ -1,0 +1,12 @@
+flask
+requests
+pyyaml
+jinja2
+werkzeug
+rq
+redis
+sqlalchemy
+psycopg2
+Flask-SQLAlchemy
+uwsgi
+rq-scheduler
