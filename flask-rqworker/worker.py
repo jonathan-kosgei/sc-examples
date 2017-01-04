@@ -5,11 +5,11 @@ import requests, sqlalchemy
 
 listen = ['default']
 
-redis_url = 'redis://redis:6379'
+redis_url = 'redis://:redis.flask-rq@redis:6379'
 
 conn = StrictRedis.from_url(redis_url)
 
-postgres_url = 'postgresql://pgbouncer_db:pgbouncer_password@pgbouncer:6000/pgbouncer_db'
+postgres_url = 'postgresql://0rzuvvvi:5efnbj173cea5bt5796un@postgres.flask-rq:5432/postgres'
 
 postgres_con = sqlalchemy.create_engine(postgres_url, client_encoding='utf8')
 

@@ -18,7 +18,7 @@ class Jobs(db.Model):
     def __repr__(self):
         return 'Results %r>' % self.results
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://pgbouncer_db:pgbouncer_password@pgbouncer:6000/pgbouncer_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://0rzuvvvi:5efnbj173cea5bt5796un@postgres.flask-rq:5432/postgres'
 
 db.create_all()
 
